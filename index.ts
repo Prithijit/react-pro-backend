@@ -1,9 +1,13 @@
- class MainClass {
+import { LogManager } from "Common";
 
 
+
+import {LogManager} from "./Common";
+
+class MainClass {
 static main(): void {
 
-    console.info ("Welcome to the world of MERN !!! ")
+    LogManager.info ("Welcome to the world of MERN !!! ")
 }
 
 
