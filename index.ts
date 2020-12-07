@@ -1,7 +1,3 @@
-import { LogManager } from "Common";
-
-
-
 import { LogManager } from "./Common";
 
 class MainClass {
